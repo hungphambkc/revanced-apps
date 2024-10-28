@@ -48,7 +48,7 @@ jobs:
         run: [1, 2, 3, 4, 5, 6, 7, 8, 9]
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.2.2
       - name: Preparing to patch
         uses: ./.github/actions/preparing
       - name: Check github connection
@@ -74,7 +74,7 @@ jobs:
         run: [1, 2, 3, 4, 5, 6, 7, 8, 9]
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.2.2
       - name: Preparing to patch
         uses: ./.github/actions/preparing
       - name: Check github connection
@@ -100,7 +100,7 @@ jobs:
         run: [1, 2, 3]
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.2.2
       - name: Preparing to patch
         uses: ./.github/actions/preparing
       - name: Check github connection
@@ -126,7 +126,7 @@ jobs:
         run: [1, 2, 3]
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.2.2
       - name: Preparing to patch
         uses: ./.github/actions/preparing
       - name: Check github connection
@@ -152,7 +152,7 @@ jobs:
         run: [1, 2, 3]
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.2.2
       - name: Preparing to patch
         uses: ./.github/actions/preparing
       - name: Check github connection
@@ -178,7 +178,7 @@ jobs:
         run: [1, 2, 3]
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.2.2
       - name: Preparing to patch
         uses: ./.github/actions/preparing
       - name: Check github connection
@@ -201,7 +201,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.2.2
       - name: Preparing to patch
         uses: ./.github/actions/preparing
       - name: Check github connection
@@ -224,7 +224,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.2.2
       - name: Preparing to patch
         uses: ./.github/actions/preparing
       - name: Check github connection
@@ -247,7 +247,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.2.2
       - name: Preparing to patch
         uses: ./.github/actions/preparing
       - name: Check github connection
@@ -270,7 +270,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.2.2
       - name: Preparing to patch
         uses: ./.github/actions/preparing
       - name: Check github connection
@@ -293,7 +293,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.2.2
       - name: Preparing to patch
         uses: ./.github/actions/preparing
       - name: Check github connection
@@ -316,7 +316,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.2.2
       - name: Preparing to patch
         uses: ./.github/actions/preparing
       - name: Check github connection
@@ -339,7 +339,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.2.2
       - name: Preparing to patch
         uses: ./.github/actions/preparing
       - name: Check github connection
