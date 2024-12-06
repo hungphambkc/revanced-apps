@@ -3,8 +3,8 @@
 source ./src/build/utils.sh
 # Download requirements
 revanced_dl(){
-	dl_gh "revanced-patches revanced-integrations" "revanced" "prerelease"
-	dl_gh "revanced-cli" "revanced" "latest"
+	dl_gh "revanced-patches" "revanced" "prerelease"
+ 	dl_gh "revanced-cli" "revanced" "latest"
 }
 1() {
 	revanced_dl
@@ -95,7 +95,8 @@ revanced_dl(){
 	revanced_dl
 	# Patch Lightroom:
 	get_patches_key "lightroom"
-	get_apk "com.adobe.lrmobile" "lightroom-beta" "lightroom" "adobe/lightroom/lightroom" "Bundle"
+ 	version="9.2.0"
+	get_apk "com.adobe.lrmobile" "lightroom-beta" "lightroom" "adobe/lightroom/lightroom"
 	patch "lightroom-beta" "revanced"
 	# Patch RAR:
 	get_patches_key "rar"
@@ -120,12 +121,10 @@ revanced_dl(){
 	# Arm64-v8a
 	get_patches_key "youtube-music-revanced"
 	get_apk "com.google.android.apps.youtube.music" "youtube-music-beta-arm64-v8a" "youtube-music" "google-inc/youtube-music/youtube-music" "arm64-v8a"
-	split_editor "youtube-lite" "youtube-lite-arm64-v8a" "include" "split_config.arm64_v8a split_config.en split_config.xxxhdpi"
 	patch "youtube-music-beta-arm64-v8a" "revanced"
 	# Armeabi-v7a
 	get_patches_key "youtube-music-revanced"
 	get_apk "com.google.android.apps.youtube.music" "youtube-music-beta-armeabi-v7a" "youtube-music" "google-inc/youtube-music/youtube-music" "armeabi-v7a"
-	split_editor "youtube-lite" "youtube-lite-armeabi-v7a" "include" "split_config.armeabi_v7a split_config.en split_config.xxxhdpi"
 	patch "youtube-music-beta-armeabi-v7a" "revanced"
 }
 case "$1" in

@@ -7,11 +7,16 @@ They are open-source scripts for patching various apps like YouTube, YouTube Mus
   
 [![Image of https://github.com/FiorenMas/Revanced-And-Revanced-Extended-Non-Root](https://github.com/FiorenMas/View-Counter/blob/main/repos/Revanced-And-Revanced-Extended-Non-Root_609906498/svg/count.svg)](https://github.com/FiorenMas/View-Counter)
 [![Image of https://github.com/FiorenMas/Revanced-And-Revanced-Extended-Non-Root/actions](https://img.shields.io/github/actions/workflow/status/fiorenmas/Revanced-And-Revanced-Extended-Non-Root/ci.yml)](https://github.com/FiorenMas/Revanced-And-Revanced-Extended-Non-Root/actions)
-[![](https://img.shields.io/badge/Telegram-2CA5E0)](https://t.me/fioren374)
+[![](https://img.shields.io/badge/Telegram-2CA5E0)](https://t.me/fiorenmas)
   
 </div>
 
 ---
+
+> [!NOTE]
+> ## Backup Telegram channel: 
+> ### [https://t.me/fiorenmas](https://t.me/fiorenmas)
+
 ## ⚙️ How does this repository work?<img src="../main/docs/image/Readme.png" align="right" />
 Simply, all you need to do is choose the app you want to use from the options below: 'Revanced' or 'Revanced Extended'. Then, select your phone's CPU architecture. If you don't know what your phone's CPU architecture is, choose All Architectures. That's all there is to it.
 
@@ -289,9 +294,9 @@ Download
 
 ### [Bilbili: (Chinese only)](https://play.google.com/store/apps/details?id=com.bilibili.app.in)
 
-### [BiliRoamingX:](https://github.com/BiliRoamingX/BiliRoamingX)
+### [BiliRoamingM:](https://github.com/sakarie9/BiliRoamingM/)
 
-[All Architectures](../../releases/download/all/bilibili-BiliRoamingX.apk )
+[All Architectures](../../releases/download/all/bilibili-BiliRoamingM.apk )
 
 ---
 
@@ -387,32 +392,10 @@ Download
 
 </details>
 
-</details>
-
 <details>
-  <summary>YT-Advanced</summary>
+  <summary>BiliRoamingM</summary>
 
-[Patches](https://github.com/YT-Advanced/ReX-patches) - [GPL-3.0](https://github.com/YT-Advanced/ReX-patches/blob/master/LICENSE)
-
-[Integrations](https://github.com/YT-Advanced/ReX-integrations) - [GPL-3.0](https://github.com/YT-Advanced/ReX-integrations/blob/main/LICENSE)
-
-</details>
-
-<details>
-  <summary>rufusin</summary>
-
-[Patches](https://github.com/rufusin/revanced-patches) - [GPL-3.0](https://github.com/rufusin/revanced-patches/blob/main/LICENSE)
-
-[Integrations](https://github.com/rufusin/revanced-integrations) - [GPL-3.0](https://github.com/rufusin/revanced-integrations/blob/main/LICENSE)
-
-</details>
-
-<details>
-  <summary>BiliRoamingX</summary>
-
-[Patches, Integrations](https://github.com/BiliRoamingX/BiliRoamingX) - [GPL-3.0](https://github.com/BiliRoamingX/BiliRoamingX/blob/main/LICENSE)
-
-</details>
+[Patches & Integrations](https://github.com/sakarie9/BiliRoamingM) - [GPL-3.0](https://github.com/sakarie9/BiliRoamingM/blob/main/LICENSE)
 
 </details>
 

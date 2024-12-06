@@ -3,7 +3,7 @@
 source ./src/build/utils.sh
 # Download requirements
 revanced_dl(){
-	dl_gh "revanced-patches revanced-cli revanced-integrations" "revanced" "latest"
+	dl_gh "revanced-patches revanced-cli" "revanced" "latest"
 }
 1() {
 	revanced_dl
@@ -98,7 +98,8 @@ revanced_dl(){
 	patch "rar" "revanced"
 	# Patch Lightroom:
 	get_patches_key "lightroom"
-	get_apk "com.adobe.lrmobile" "lightroom" "lightroom" "adobe/lightroom/lightroom" "Bundle"
+  	version="9.2.0"
+	get_apk "com.adobe.lrmobile" "lightroom" "lightroom" "adobe/lightroom/lightroom"
 	patch "lightroom" "revanced"
 }
 8() {
@@ -114,6 +115,7 @@ revanced_dl(){
 	patch "youtube-lite-armeabi-v7a" "revanced"
 }
 9() {
+	revanced_dl
 	# Patch YouTube Music:
 	# Arm64-v8a
 	get_patches_key "youtube-music-revanced"
