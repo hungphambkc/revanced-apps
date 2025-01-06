@@ -83,6 +83,8 @@ Download
 
 <details>
   <summary>Lite version</summary>
+
+Old patches, because latest patch not support split apks
   
 | [Stable version](https://github.com/inotia00/revanced-patches/releases/latest)               | [Beta version](https://github.com/inotia00/revanced-patches/releases)                          |
 | -------------------------------------------------------------------------------------------  | ---------------------------------------------------------------------------------------------- |
@@ -103,6 +105,8 @@ Download
 
 <details>
   <summary>Lite version</summary>
+
+Old patches, because latest patch not support split apks
   
 | [Stable version](https://github.com/anddea/revanced-patches/releases/latest)      | [Beta version](https://github.com/anddea/revanced-patches/releases)                 |
 | ----------------------------------------------------------------------------------  | ------------------------------------------------------------------------------------- |
@@ -177,9 +181,10 @@ Download
 
 ### [Piko:](https://github.com/crimera/piko)
 
-| [Stable version](https://github.com/crimera/piko/releases/latest)        | [Beta version](https://github.com/crimera/piko/releases/)              |
-| ------------------------------------------------------------------------ | ---------------------------------------------------------------------- | 
-| [All Architectures](../../releases/download/all/twitter-stable-piko.apk) | [All Architectures](../../releases/download/all/twitter-beta-piko.apk) |
+| [Stable version](https://github.com/crimera/piko/releases/latest)          | [Beta version](https://github.com/crimera/piko/releases/)                |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------| 
+| [All Architectures](../../releases/download/all/twitter-stable-piko.apk)   | [All Architectures](../../releases/download/all/twitter-beta-piko.apk)   |
+| [Arm64-v8a](../../releases/download/all/twitter-arm64-v8a-stable-piko.apk) | [Arm64-v8a](../../releases/download/all/twitter-arm64-v8a-beta-piko.apk) |
 
 ---
 
@@ -214,13 +219,22 @@ Download
 
 ---
 
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://play.google.com/store/apps/details?id=org.telegram.messenger)
+
+### [Revanced Experiments:](https://github.com/Aunali321/ReVancedExperiments)
+
+[Arm64-v8a](../../releases/download/all/telegram-revanced-experiments.apk)
+
+---
+
 [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?style=for-the-badge&logo=TikTok&logoColor=white)](https://play.google.com/store/apps/details?id=com.ss.android.ugc.trill)
 
 ### Revanced:
 
-| Stable version                                                       | Beta version                                                              |
-| -------------------------------------------------------------------- | ------------------------------------------------------------------------- | 
-| [All Architectures](../../releases/download/all/tiktok-revanced.apk) | [All Architectures](../../releases/download/all/tiktok-beta-revanced.apk) |
+| Stable version                                                         | Beta version                                                                |
+| ---------------------------------------------------------------------- | -------------------------------------------------------------------------   | 
+| [All Architectures](../../releases/download/all/tiktok-revanced.apk)   | [All Architectures](../../releases/download/all/tiktok-beta-revanced.apk)   |
+| [Arm64-v8a](../../releases/download/all/tiktok-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/tiktok-beta-arm64-v8a-revanced.apk) |
 
 ---
 
@@ -228,17 +242,21 @@ Download
 
 ### Revanced:
 
-| Stable version                                                       | Beta version                                                              |
-| -------------------------------------------------------------------- | ------------------------------------------------------------------------- | 
-| [All Architectures](../../releases/download/all/twitch-revanced.apk) | [All Architectures](../../releases/download/all/twitch-beta-revanced.apk) |
+| Stable version                                                         | Beta version                                                                |
+| ---------------------------------------------------------------------- | --------------------------------------------------------------------------- | 
+| [All Architectures](../../releases/download/all/twitch-revanced.apk)   | [All Architectures](../../releases/download/all/twitch-beta-revanced.apk)   |
+| [Arm64-v8a](../../releases/download/all/twitch-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/twitch-arm64-v8a-beta-revanced.apk) |
 
 ---
 
 [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white)](https://play.google.com/store/apps/details?id=com.reddit.frontpage)
 
-### [Revanced Extended: (Version 2024.18.0+)](https://github.com/inotia00/revanced-patches-arsclib)
+### Revanced Extended:
 
-[All Architectures](../../releases/download/all/reddit-revanced-extended.apk)
+| Stable version                                                                  | Beta version                                                                         |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | 
+| [All Architectures](../../releases/download/all/reddit-revanced-extended.apk)   | [All Architectures](../../releases/download/all/reddit-beta-revanced-extended.apk)   |
+| [Arm64-v8a](../../releases/download/all/reddit-arm64-v8a-revanced-extended.apk) | [Arm64-v8a](../../releases/download/all/reddit-arm64-v8a-beta-revanced-extended.apk) |
 
 ---
 
@@ -256,9 +274,10 @@ Download
 
 ### Revanced:
 
-| Stable version                                                       | Beta version                                                              |
-| -------------------------------------------------------------------- | ------------------------------------------------------------------------- | 
-| [All Architectures](../../releases/download/all/tumblr-revanced.apk) | [All Architectures](../../releases/download/all/tumblr-beta-revanced.apk) |
+| Stable version                                                         | Beta version                                                                |
+| ---------------------------------------------------------------------- | --------------------------------------------------------------------------- | 
+| [All Architectures](../../releases/download/all/tumblr-revanced.apk)   | [All Architectures](../../releases/download/all/tumblr-beta-revanced.apk)   |
+| [Arm64-v8a](../../releases/download/all/tumblr-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/tumblr-arm64-v8a-beta-revanced.apk) |
 
 ---
 
@@ -266,9 +285,10 @@ Download
 
 ### Revanced:
 
-| Stable version                                                           | Beta version                                                                  |
-| ------------------------------------------------------------------------ | ----------------------------------------------------------------------------- | 
-| [All Architectures](../../releases/download/all/soundcloud-revanced.apk) | [All Architectures](../../releases/download/all/soundcloud-beta-revanced.apk) |
+| Stable version                                                             | Beta version                                                                    |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | 
+| [All Architectures](../../releases/download/all/soundcloud-revanced.apk)   | [All Architectures](../../releases/download/all/soundcloud-beta-revanced.apk)   |
+| [Arm64-v8a](../../releases/download/all/soundcloud-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/soundcloud-arm64-v8a-beta-revanced.apk) |
 
 ---
 
@@ -297,6 +317,8 @@ Download
 ### [BiliRoamingM:](https://github.com/sakarie9/BiliRoamingM/)
 
 [All Architectures](../../releases/download/all/bilibili-BiliRoamingM.apk )
+
+[Arm64-v8a](../../releases/download/all/bilibili-arm64-v8a-BiliRoamingM.apk )
 
 ---
 
@@ -347,10 +369,6 @@ Download
 [Integrations](https://github.com/inotia00/revanced-integrations) - [GPL-3.0](https://github.com/inotia00/revanced-integrations/blob/main/LICENSE)
 
 [CLI](https://github.com/inotia00/revanced-cli) - [GPL-3.0](https://github.com/inotia00/revanced-cli/blob/main/LICENSE)
-
-[Patches Arsclib](https://github.com/inotia00/revanced-patches-arsclib) - [GPL-3.0](https://github.com/inotia00/revanced-patches-arsclib/blob/arsclib-old/LICENSE)
-
-[CLI Arsclib](https://github.com/inotia00/revanced-cli-arsclib) - [GPL-3.0](https://github.com/inotia00/revanced-cli-arsclib/blob/arsclib-old/LICENSE)
 
 </details>
 
@@ -406,9 +424,16 @@ Download
 
 </details>
 
+<details>
+  <summary>Aunali321</summary>
+
+[Patches](https://github.com/Aunali321/ReVancedExperiments) - [GPL-3.0](https://github.com/Aunali321/ReVancedExperiments/blob/main/LICENSE)
+
+</details>
+
 [Markdown Badges](https://github.com/Ileriayo/markdown-badges) - [MIT](https://github.com/Ileriayo/markdown-badges/blob/master/LICENSE)
 
-[HTMLQ](https://github.com/mgdm/htmlq) - [MIT](https://github.com/mgdm/htmlq/blob/master/LICENSE.md)
+[pup](https://github.com/ericchiang/pup) - [MIT](https://github.com/ericchiang/pup/blob/master/LICENSE)
 
 [APKEditor](https://github.com/REAndroid/APKEditor) - [Apache-2.0](https://github.com/REAndroid/APKEditor/blob/master/LICENSE)
 
