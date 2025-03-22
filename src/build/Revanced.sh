@@ -35,7 +35,7 @@ revanced_dl(){
 	# Arm64-v8a
 	get_patches_key "messenger"
 	lock_version="1"
-	get_apk "com.facebook.orca" "messenger-arm64-v8a" "messenger" "facebook-2/messenger/messenger" "arm64-v8a" "nodpi"
+	get_apk "com.facebook.orca" "messenger-arm64-v8a" "messenger" "facebook-2/messenger/facebook-messenger" "arm64-v8a" "nodpi"
 	patch "messenger-arm64-v8a" "revanced"
 	# Patch Facebook:
 	# Arm64-v8a
@@ -49,54 +49,59 @@ revanced_dl(){
 	# Patch Google photos:
 	# Arm64-v8a
 	get_patches_key "gg-photos"
-	get_apk "com.google.android.apps.photos" "gg-photos-arm64-v8a" "photos" "google-inc/photos/photos" "arm64-v8a" "nodpi"
+	get_apk "com.google.android.apps.photos" "gg-photos-arm64-v8a" "photos" "google-inc/photos/google-photos" "arm64-v8a" "nodpi"
 	patch "gg-photos-arm64-v8a" "revanced"
 	# Armeabi-v7a
 	get_patches_key "gg-photos"
-	get_apk "com.google.android.apps.photos" "gg-photos-armeabi-v7a" "photos" "google-inc/photos/photos" "armeabi-v7a" "nodpi"
+	get_apk "com.google.android.apps.photos" "gg-photos-armeabi-v7a" "photos" "google-inc/photos/google-photos" "armeabi-v7a" "nodpi"
 	patch "gg-photos-armeabi-v7a" "revanced"
 }
 4() {
-	dl_gh "revanced-patches" "revanced" "v5.7.2" #Force version this because crash on startup lastest rv patches
-	dl_gh "revanced-cli" "revanced" "latest"
+	revanced_dl
 	# Patch Tiktok:
 	get_patches_key "tiktok"
-	version="37.0.4" #Force this version but missing settings https://github.com/ReVanced/revanced-patches/issues/4221#issuecomment-2564776573
-	get_apk "com.zhiliaoapp.musically" "tiktok" "tik-tok-including-musical-ly" "tiktok-pte-ltd/tik-tok-including-musical-ly/tik-tok-including-musical-ly" "Bundle_extract"
-	split_editor "tiktok" "tiktok"
+	url="https://tiktok.en.uptodown.com/android/download/1032081983" #Use uptodown because apkmirror ban tiktok in US lead github action can't download apk file
+	url="https://dw.uptodown.com/dwn/$(req "$url" - | $pup -p --charset utf-8 'button#detail-download-button attr{data-url}')"
+	req "$url" "tiktok.apk"
+	#get_apk "com.zhiliaoapp.musically" "tiktok" "tik-tok-including-musical-ly" "tiktok-pte-ltd/tik-tok-including-musical-ly/tik-tok-including-musical-ly" "Bundle_extract"
+	#split_editor "tiktok" "tiktok"
 	patch "tiktok" "revanced"
  	# Patch Tiktok Arm64-v8a:
- 	split_editor "tiktok" "tiktok-arm64-v8a" "exclude" "split_config.armeabi_v7a"
-  	patch "tiktok-arm64-v8a" "revanced"
+ 	#split_editor "tiktok" "tiktok-arm64-v8a" "exclude" "split_config.armeabi_v7a"
+  	#patch "tiktok-arm64-v8a" "revanced"
 	rm -f *.rvp *.jar
 	revanced_dl
 	# Patch Instagram:
 	# Arm64-v8a
 	get_patches_key "instagram"
-	get_apk "com.instagram.android" "instagram-arm64-v8a" "instagram-instagram" "instagram/instagram-instagram/instagram-instagram" "arm64-v8a" "nodpi"
+	version="370.1.0.43.96" #https://github.com/ReVanced/revanced-patches/issues/4584
+	get_apk "com.instagram.android" "instagram-arm64-v8a" "instagram-instagram" "instagram/instagram-instagram/instagram" "arm64-v8a" "nodpi"
 	patch "instagram-arm64-v8a" "revanced"
 }
 5() {
 	revanced_dl
 	# Patch Pixiv:
 	get_patches_key "pixiv"
+	version="6.134.1" #https://github.com/ReVanced/revanced-patches/issues/4477
 	get_apk "jp.pxv.android" "pixiv" "pixiv" "pixiv-inc/pixiv/pixiv"
 	patch "pixiv" "revanced"
 	# Patch Twitch:
 	get_patches_key "twitch"
-	get_apk "tv.twitch.android.app" "twitch" "twitch" "twitch-interactive-inc/twitch/twitch" "Bundle_extract"
-	split_editor "twitch" "twitch"
+	#get_apk "tv.twitch.android.app" "twitch" "twitch" "twitch-interactive-inc/twitch/twitch" "Bundle_extract"
+	#split_editor "twitch" "twitch"
+	version="19.1.0" #https://github.com/orgs/ReVanced/discussions/1135#discussioncomment-11797007
+ 	get_apk "tv.twitch.android.app" "twitch" "twitch" "twitch-interactive-inc/twitch/twitch"
 	patch "twitch" "revanced"
 	# Patch Twitch Arm64-v8a:
-	get_patches_key "twitch"
-	split_editor "twitch" "twitch-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
-	patch "twitch-arm64-v8a" "revanced"
+	#get_patches_key "twitch"
+	#split_editor "twitch" "twitch-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
+	#patch "twitch-arm64-v8a" "revanced"
 }
 6() {
 	revanced_dl
 	# Patch Tumblr:
 	get_patches_key "tumblr"
-	get_apk "com.tumblr" "tumblr" "tumblr" "tumblr-inc/tumblr/tumblr" "Bundle_extract"
+	get_apk "com.tumblr" "tumblr" "tumblr" "tumblr-inc/tumblr/tumblr-fandom-art-chaos" "Bundle_extract"
 	split_editor "tumblr" "tumblr"
 	patch "tumblr" "revanced"
 	# Patch Tumblr Arm64-v8a:
@@ -105,7 +110,7 @@ revanced_dl(){
 	patch "tumblr-arm64-v8a" "revanced"
 	# Patch SoundCloud:
 	get_patches_key "soundcloud"
-	get_apk "com.soundcloud.android" "soundcloud" "soundcloud-soundcloud" "soundcloud/soundcloud-soundcloud/soundcloud-soundcloud" "Bundle_extract"
+	get_apk "com.soundcloud.android" "soundcloud" "soundcloud-soundcloud" "soundcloud/soundcloud-soundcloud/soundcloud-play-music-songs" "Bundle_extract"
 	split_editor "soundcloud" "soundcloud"
 	patch "soundcloud" "revanced"
 	# Patch SoundCloud Arm64-v8a:
@@ -120,10 +125,10 @@ revanced_dl(){
 	get_apk "com.rarlab.rar" "rar" "rar" "rarlab-published-by-win-rar-gmbh/rar/rar" "arm64-v8a"
 	patch "rar" "revanced"
 	# Patch Lightroom:
-	get_patches_key "lightroom"
-  	version="9.2.0"
-	get_apk "com.adobe.lrmobile" "lightroom" "lightroom" "adobe/lightroom/lightroom"
-	patch "lightroom" "revanced"
+	#get_patches_key "lightroom"
+  	#version="9.2.0"
+	#get_apk "com.adobe.lrmobile" "lightroom" "lightroom" "adobe/lightroom/lightroom"
+	#patch "lightroom" "revanced"
 }
 8() {
 	revanced_dl
@@ -148,6 +153,19 @@ revanced_dl(){
 	get_patches_key "youtube-music-revanced"
 	get_apk "com.google.android.apps.youtube.music" "youtube-music-armeabi-v7a" "youtube-music" "google-inc/youtube-music/youtube-music" "armeabi-v7a"
 	patch "youtube-music-armeabi-v7a" "revanced"
+}
+10() {
+	revanced_dl
+	# Patch Duolingo
+	get_patches_key "Duolingo"
+	lock_version="1"
+	get_apk "com.duolingo" "duolingo" "duolingo" "duolingo/duolingo-duolingo/duolingo-language-lessons" "Bundle"
+	patch "duolingo" "revanced"
+	# Patch Google News Arm64-v8a
+	get_patches_key "GoogleNews"
+	get_apk "com.google.android.apps.magazines" "googlenews" "google-news" "google-inc/google-news/google-news" "Bundle_extract"
+	split_editor "googlenews" "googlenews-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
+	patch "googlenews-arm64-v8a" "revanced"
 }
 case "$1" in
     1)
@@ -176,5 +194,8 @@ case "$1" in
         ;;
     9)
         9
+        ;;
+    10)
+        10
         ;;
 esac

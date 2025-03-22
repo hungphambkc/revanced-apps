@@ -25,8 +25,9 @@ Simply, all you need to do is choose the app you want to use from the options be
 > 
 > If you are an advanced user and you want to use custom patches for patching apps, you should read the [Wiki](../main/docs/Frequently%20Asked%20Questions.md#q-how-do-i-use-this-repository-for-patching-my-own-app).
 > 
+> This repository is not like any other repository. It does not create new releases; it only releases new files.
+> 
 > All the code is open-source, clearly, and the APK files used for patching are downloaded from a trusted site, so it is totally safe for you to use.
-
 ---
 <h1 align="center">
 Download
@@ -116,6 +117,8 @@ Old patches, because latest patch not support split apks
 </details>
 
 ### [Revanced Extended For Android 6 & 7:](https://github.com/kitadai31/revanced-patches-android6-7/tree/revanced-extended)
+
+**If you have any problems opening apps, follow the instructions [HERE](../main/docs/Frequently%20Asked%20Questions.md#q-youtube-android-67-cant-load-anyvideo)**
 
 [All Architectures](../../releases/download/all/youtube-revanced-extended-android-6-7.apk)
 
@@ -229,7 +232,13 @@ Old patches, because latest patch not support split apks
 
 ### [Revanced Experiments:](https://github.com/Aunali321/ReVancedExperiments)
 
+CH play version:
+
 [Arm64-v8a](../../releases/download/all/telegram-revanced-experiments.apk)
+
+Web version:
+
+[All Architectures](../../releases/download/all/telegram-web-version-revanced-experiments.apk) 
 
 ---
 
@@ -238,9 +247,8 @@ Old patches, because latest patch not support split apks
 ### [Revanced:](https://github.com/revanced/revanced-patches)
 
 | Stable version                                                         | Beta version                                                                |
-| ---------------------------------------------------------------------- | -------------------------------------------------------------------------   | 
+| ---------------------------------------------------------------------- | -------------------------------------------------------------------------   |
 | [All Architectures](../../releases/download/all/tiktok-revanced.apk)   | [All Architectures](../../releases/download/all/tiktok-beta-revanced.apk)   |
-| [Arm64-v8a](../../releases/download/all/tiktok-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/tiktok-beta-arm64-v8a-revanced.apk) |
 
 ---
 
@@ -251,7 +259,6 @@ Old patches, because latest patch not support split apks
 | Stable version                                                         | Beta version                                                                |
 | ---------------------------------------------------------------------- | --------------------------------------------------------------------------- | 
 | [All Architectures](../../releases/download/all/twitch-revanced.apk)   | [All Architectures](../../releases/download/all/twitch-beta-revanced.apk)   |
-| [Arm64-v8a](../../releases/download/all/twitch-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/twitch-arm64-v8a-beta-revanced.apk) |
 
 ---
 
@@ -298,12 +305,32 @@ Old patches, because latest patch not support split apks
 
 ---
 
+[![Duolingo](https://img.shields.io/badge/Duolingo-%234DC730.svg?style=for-the-badge&logo=Duolingo&logoColor=white)](https://play.google.com/store/apps/details?id=com.duolingo)
+
+### [Revanced:](https://github.com/revanced/revanced-patches)
+
+| Stable version                                                           | Beta version                                                                  |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------------------   |
+| [All Architectures](../../releases/download/all/duolingo-revanced.apk)   | [All Architectures](../../releases/download/all/duolingo-beta-revanced.apk)   |
+
+---
+
+### [Google News:](play.google.com/store/apps/details?id=com.google.android.apps.magazines)
+
+### [Revanced:](https://github.com/revanced/revanced-patches)
+
+| Stable version                                                             | Beta version                                                                    |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| [Arm64-v8a](../../releases/download/all/googlenews-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/googlenews-beta-arm64-v8a-revanced.apk) |
+
+---
+
 ### [RAR:](https://play.google.com/store/apps/details?id=com.rarlab.rar)
 
 ### [Revanced:](https://github.com/revanced/revanced-patches)
 
 | Stable version                                            | Beta version                                                   |
-| --------------------------------------------------------- | -------------------------------------------------------------- | 
+| --------------------------------------------------------- | -------------------------------------------------------------- |
 | [Arm64-v8a](../../releases/download/all/rar-revanced.apk) | [Arm64-v8a](../../releases/download/all/rar-beta-revanced.apk) |
 
 ---

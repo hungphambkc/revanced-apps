@@ -15,9 +15,23 @@ The issue might be that your Android OS is preventing MicroG (GMS Core) from run
 If it still can't solve the buffering issue, maybe using PoToken can solve it.
 
 1. Download and install Revanced Extended or Revanced Extended forked by anddea.
-2. [Fork or use the template if you want to make your PoToken private.](https://github.com/FiorenMas/youtube-po-token-generator)
-3. Run the GitHub action in this repository. After the action completes, copy the PoToken and visitorData from the logs.
+2. [Go to this repository](https://github.com/FiorenMas/scrape-youtube)
+3. Scroll down, copy the PoToken and visitorData
 4. Open the Revanced Extended app and go to Settings > Revanced Extended > Miscellaneous > Spoof Streaming data > Default cilent (select iOS) > PoToken/VisitorData. Then, paste the two values you copied in the previous step.
+
+### Q: Youtube Android 6,7 Can't load anyvideo:
+
+This is because Google force old version Youtube need to update. So you need fake your youtube version to higher version.
+
+1. Open RVX Setting and then search `Spoof`
+
+2. After that find `Spoof app version` toogle it on
+
+3. Choose `Edit spoof app version` input `19.05.36` then restart RVX
+
+4. And then set Po-token in above this guide if still have issues.
+
+Credit: [@gnadgnaoh](https://github.com/gnadgnaoh/)
 
 ### Q: How do I use this repository for patching my own app?
 
