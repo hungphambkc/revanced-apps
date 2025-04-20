@@ -48,10 +48,6 @@ Download
 
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://play.google.com/store/apps/details?id=com.google.android.youtube)
 
-> [!IMPORTANT] 
-> A lite version is a version with unnecessary things removed. For example, it might only have an English interface and remove unused screen DPI from split APKs
->
-
 ### [Revanced:](https://github.com/revanced/revanced-patches)
 
 | [Stable version](https://github.com/ReVanced/revanced-patches/releases/latest) | [Beta version](https://github.com/ReVanced/revanced-patches/releases)            |
@@ -64,7 +60,9 @@ Download
 
 <details>
   <summary>Lite version</summary>
-  
+
+**A lite version is a version with unnecessary things removed. For example, it might only have an English interface and remove unused screen DPI from split APKs**
+
 | [Stable version](https://github.com/ReVanced/revanced-patches/releases/latest)      | [Beta version](https://github.com/ReVanced/revanced-patches/releases)                 |
 | ----------------------------------------------------------------------------------  | ------------------------------------------------------------------------------------- |
 | [Arm64-v8a](../../releases/download/all/youtube-lite-arm64-v8a-revanced.apk)        | [Arm64-v8a](../../releases/download/all/youtube-lite-beta-arm64-v8a-revanced.apk)     |
@@ -85,8 +83,8 @@ Download
 <details>
   <summary>Lite version</summary>
 
-Old patches, because latest patch not support split apks
-  
+**A lite version is a version with unnecessary things removed. For example, it might only have an English interface and remove unused screen DPI from split APKs**
+
 | [Stable version](https://github.com/inotia00/revanced-patches/releases/latest)               | [Beta version](https://github.com/inotia00/revanced-patches/releases)                          |
 | -------------------------------------------------------------------------------------------  | ---------------------------------------------------------------------------------------------- |
 | [Arm64-v8a](../../releases/download/all/youtube-lite-arm64-v8a-revanced-extended.apk)        | [Arm64-v8a](../../releases/download/all/youtube-lite-beta-arm64-v8a-revanced-extended.apk)     |
@@ -230,6 +228,16 @@ Old patches, because latest patch not support split apks
 
 ---
 
+### [Spotjfy:](https://www.google.com/search?q=Spotjfy)
+
+### [Revanced](https://github.com/revanced/revanced-patches)
+
+#### ⚠️ Please read [WIKI](../main/docs/Frequently%20Asked%20Questions.md#q-what-is-spotjfy-and-how-can-i-download-it) before click download
+
+[Arm64-v8a](../../releases/download/all/spotjfy-arm64-v8a-revanced.apk)
+
+---
+
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://play.google.com/store/apps/details?id=org.telegram.messenger)
 
 ### [Revanced Experiments:](https://github.com/Aunali321/ReVancedExperiments)
@@ -324,6 +332,16 @@ Web version:
 | Stable version                                                             | Beta version                                                                    |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | [Arm64-v8a](../../releases/download/all/googlenews-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/googlenews-beta-arm64-v8a-revanced.apk) |
+
+---
+
+### [Photomath:](https://play.google.com/store/apps/details?id=com.microblink.photomath)
+
+### [Revanced:](https://github.com/revanced/revanced-patches)
+
+| Stable version                                                             | Beta version                                                                    |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| [All Architectures](../../releases/download/all/photomath-revanced.apk)    | [All Architectures](../../releases/download/all/photomath-beta-revanced.apk)    |
 
 ---
 
